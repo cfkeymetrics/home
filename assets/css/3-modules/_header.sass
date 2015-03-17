@@ -1,0 +1,51 @@
+header
+	max-height:100%
+	min-height:400px
+	background: white
+	+clearfix
+
+	.logo
+		+size(195px 75px)
+		background: url(/assets/img/cflogo.jpg) no-repeat
+		float: left
+		margin: 10px 0 0 10px
+		background-size: 100%
+			
+
+    	
+	nav
+		float: right
+		margin: 30px 30px 0 0
+
+		a
+			display: inline-block
+			margin-left: 20px
+			@extend %small-bold
+
+			&:hover
+				color: rgba(0,0,0,1)
+
+h1
+	text-align: center
+	font:
+		size: 102px
+		weight: 700
+	color: rgba(0,0,0,0.7)
+	margin-bottom: 20px
+	clear: both
+	padding-top: 30px
+
+	span
+		display: inline-block
+		padding: 0.2em 0.5em
+		border: solid 10px
+		color: rgba(0,0,0,0.7)
+
+.kicker
+	text-align: center
+	font:
+		weight: 700
+	text-transform: lowercase
+	letter-spacing: 0.05em
+	color: rgba(0,0,0,0.7)
+	line-height: 1
